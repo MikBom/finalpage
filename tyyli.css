@@ -4,6 +4,6 @@
     left:-35px;
     width:500px;
     height:auto;
-    display:block;
+    display:inline;
     z-index:999;
 }
