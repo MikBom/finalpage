@@ -60,11 +60,14 @@
   </div>
   <br>
   <div style="margin-left: 20px; margin-top: 30px; margin-bottom: 20px">
-  <form action="message.php" method="post">
-  <textarea rows="4" cols="50" name="comment" id="padding2">
-Tai jätä viesti tähän</textarea>
-<br>
-<input type="submit" value="Submit" id="padding3">
+  
+  <form action="message.php" method="POST">
+	<p>Name</p> <input type="text" name="name">
+	<p>Email</p> <input type="text" name="email">
+	<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+	<input type="submit" value="Send"><input type="reset" value="Clear">
+
+
 </form>
 </div>
 <footer class="page-footer font-small">
