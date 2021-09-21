@@ -1,6 +1,7 @@
 <?php 
 		
-		$teksti = $_POST['w3review'];
+		$fname = $_POST['firstname'];
+		$lname = $_POST['lastname'];
 		
-		echo ("Moi, viestisi oli: ". "$teksti ". "Kiitos viestistäsi!);
+		echo ("Moi ". "$fname "."$lname ".". Kiitos viestistäsi!");
 ?>
